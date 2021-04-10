@@ -4,6 +4,7 @@
         "ESNEXT",
         "downlevel",
         "linebreak",
+        "nanoid",
         "sourcemap",
         "tslib",
         "typechecking",

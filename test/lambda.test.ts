@@ -1,14 +1,12 @@
-import { handle } from '../src/lambda';
 import { expect } from 'chai';
+import { handle } from '../src/lambda';
 
 describe('Test lambda', () => {
+  it('handles something', async () => {
+    const event = 'Hello Lambda!';
 
-    it('handles something', async () => {
+    const result = await handle(event);
 
-        const event = 'Hello Lambda!';
-
-        const result = await handle(event);
-
-        expect(result).to.equal(event);
-    });
+    expect(result).to.equal(event);
+  });
 });

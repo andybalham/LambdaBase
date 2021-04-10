@@ -9,7 +9,7 @@ Description: >
 Globals:
   Function:
     Runtime: nodejs12.x
-    CodeUri: dist/
+    CodeUri: dist/src/
     Timeout: 3
   
 Parameters:
